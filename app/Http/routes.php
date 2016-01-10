@@ -11,6 +11,8 @@
 |
 */
 
-$app->get('/', function () use ($app) {
-    return $app->version();
-});
+$app->get('/', ['as' => 'index', 'uses' => 'PagesController@index']);
+
+$app->get('/motivational', ['as' => 'motivational', 'uses' => 'PagesController@motivationPage']);
+
+$app->get('/demotivational', ['as' => 'demotivational', 'uses' => 'PagesController@demotivationPage']);
