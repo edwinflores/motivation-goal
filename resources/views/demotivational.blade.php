@@ -6,7 +6,7 @@
 </head>
 <body style="background-image: url('/img/demotivational/{{ rand(16, 51) }}.jpg'); background-size: 100% 100%;">
     <div class="quote-container" style="top: 3%">
-        <p><a href="{{ route('motivational') }}">Another?</a></p
+        <p><a href="{{ route('demotivational') }}">Another?</a></p
     </div>
 </body>
 </html>  
