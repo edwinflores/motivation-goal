@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'CreateJokesTable' => $baseDir . '/database/migrations/2016_01_10_120027_create_jokes_table.php',
     'CreateQuotesTable' => $baseDir . '/database/migrations/2016_01_08_063653_create_quotes_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'ExampleTest' => $baseDir . '/tests/ExampleTest.php',
@@ -13,6 +14,7 @@ return array(
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/src/Facade.php',
     'File_Iterator_Factory' => $vendorDir . '/phpunit/php-file-iterator/src/Factory.php',
     'IlluminateQueueClosure' => $vendorDir . '/illuminate/queue/IlluminateQueueClosure.php',
+    'JokeTableSeeder' => $baseDir . '/database/seeds/JokeTableSeeder.php',
     'PHPUnit_Exception' => $vendorDir . '/phpunit/phpunit/src/Exception.php',
     'PHPUnit_Extensions_GroupTestSuite' => $vendorDir . '/phpunit/phpunit/src/Extensions/GroupTestSuite.php',
     'PHPUnit_Extensions_PhptTestCase' => $vendorDir . '/phpunit/phpunit/src/Extensions/PhptTestCase.php',

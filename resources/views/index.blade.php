@@ -9,7 +9,7 @@
 <body>
 <div class="quote-container" style="top: 30%">
     <p class="text" style="color: #000000">Would you like to be: </p>
-    <div style="width: 700px; display:block; margin-left: auto; margin-right: auto;">
+    <div style="width: 700px; display:block; margin-left: auto; margin-right: auto; text-align: center">
         <a href="{{ route('motivational') }}" class="hvr-float-shadow">
             <p style="text-align: center; color: #666">
                 <span>Motivated?</span><br>
@@ -22,9 +22,9 @@
                 <span style="font-size: 10px">(Why?)</span>
             </p>
         </a>
-        <a href="#" class="hvr-buzz-out">
+        <a href="{{ route('jokes') }}" class="hvr-buzz-out">
             <p style="text-align: center; color: #666">
-                <span>Laugh?</span><br>
+                <span>Giggling?</span><br>
                 <span style="font-size: 10px">(Hey, no promises)</span>
             </p>
         </a>

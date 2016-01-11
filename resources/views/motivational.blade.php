@@ -9,6 +9,7 @@
     <div class="quote-container">
         <p class="text">{{$random_quote->text}}</p>
         <p class="author">&mdash; {{$random_quote->author}}</p>
+        <p><a href="{{ route('motivational') }}">Another?</a></p
     </div>
 </div>
 </body>
