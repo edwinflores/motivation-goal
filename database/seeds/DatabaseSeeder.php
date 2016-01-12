@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
 
         $this->call(QuoteTableSeeder::class);
         $this->call(JokeTableSeeder::class);
+        $this->call(ScareTableSeeder::class);
 
         Model::reguard();
         DB::statement("SET foreign_key_checks = 1");

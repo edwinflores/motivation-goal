@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Joke;
 use App\Models\Quote;
+use App\Models\Scare;
 
 class PagesController extends Controller
 {
@@ -35,5 +36,13 @@ class PagesController extends Controller
         $joke = explode('|', $jokes->random()->text);
 
         return view('joke', ['joke' => $joke]);
+    }
+
+    public function scarePage()
+    {
+        $scares = Scare::all();
+        $scare = explode('|', $scares->random()->text);
+
+        return view('scare', ['scare' => $scare]);
     }
 }

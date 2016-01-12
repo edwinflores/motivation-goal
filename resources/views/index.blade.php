@@ -9,23 +9,29 @@
 <body>
 <div class="quote-container" style="top: 30%">
     <p class="text" style="color: #000000">Would you like to be: </p>
-    <div style="width: 700px; display:block; margin-left: auto; margin-right: auto; text-align: center">
-        <a href="{{ route('motivational') }}" class="hvr-float-shadow">
+    <div style="width: 800px; display:block; margin-left: auto; margin-right: auto; text-align: center">
+        <a href="{{ route('motivational') }}" class="hvr-float-shadow" style="width: 20%">
             <p style="text-align: center; color: #666">
                 <span>Motivated?</span><br>
                 <span style="font-size: 10px">(Sort of)</span>
             </p>
         </a>
-        <a href="{{ route('demotivational') }}" class="hvr-wobble-skew">
+        <a href="{{ route('demotivational') }}" class="hvr-wobble-skew" style="width: 20%">
             <p style="text-align: center; color: #666">
                 <span>Demotivated?</span><br>
                 <span style="font-size: 10px">(Why?)</span>
             </p>
         </a>
-        <a href="{{ route('jokes') }}" class="hvr-buzz-out">
+        <a href="{{ route('jokes') }}" class="hvr-pulse-grow" style="width: 20%">
             <p style="text-align: center; color: #666">
                 <span>Giggling?</span><br>
                 <span style="font-size: 10px">(Hey, no promises)</span>
+            </p>
+        </a>
+        <a href="{{ route('scary') }}" class="hvr-buzz-out" style="width: 20%">
+            <p style="text-align: center; color: #666">
+                <span>Scared?</span><br>
+                <span style="font-size: 10px">(Probably Not)</span>
             </p>
         </a>
     </div>

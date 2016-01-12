@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'CreateJokesTable' => $baseDir . '/database/migrations/2016_01_10_120027_create_jokes_table.php',
     'CreateQuotesTable' => $baseDir . '/database/migrations/2016_01_08_063653_create_quotes_table.php',
+    'CreateScaresTable' => $baseDir . '/database/migrations/2016_01_12_010200_create_scares_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'ExampleTest' => $baseDir . '/tests/ExampleTest.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
@@ -411,6 +412,7 @@ return array(
     'PHP_Token_YIELD' => $vendorDir . '/phpunit/php-token-stream/src/Token.php',
     'PHP_Token_YIELD_FROM' => $vendorDir . '/phpunit/php-token-stream/src/Token.php',
     'QuoteTableSeeder' => $baseDir . '/database/seeds/QuoteTableSeeder.php',
+    'ScareTableSeeder' => $baseDir . '/database/seeds/ScareTableSeeder.php',
     'SebastianBergmann\\Comparator\\ArrayComparator' => $vendorDir . '/sebastian/comparator/src/ArrayComparator.php',
     'SebastianBergmann\\Comparator\\Comparator' => $vendorDir . '/sebastian/comparator/src/Comparator.php',
     'SebastianBergmann\\Comparator\\ComparisonFailure' => $vendorDir . '/sebastian/comparator/src/ComparisonFailure.php',

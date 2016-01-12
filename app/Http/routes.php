@@ -13,8 +13,8 @@
 
 $app->get('/', ['as' => 'index', 'uses' => 'PagesController@index']);
 
-$app->get('/motivational', ['as' => 'motivational', 'uses' => 'PagesController@motivationPage']);
-
+$app->get('/motivational',   ['as' => 'motivational',   'uses' => 'PagesController@motivationPage']);
 $app->get('/demotivational', ['as' => 'demotivational', 'uses' => 'PagesController@demotivationPage']);
+$app->get('/joketional',     ['as' => 'jokes',          'uses' => 'PagesController@jokePage']);
+$app->get('/scare',          ['as' => 'scary',          'uses' => 'PagesController@scarePage']);
 
-$app->get('/joketional', ['as' => 'jokes', 'uses' => 'PagesController@jokePage']);
