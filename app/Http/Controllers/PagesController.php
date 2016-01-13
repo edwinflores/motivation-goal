@@ -32,10 +32,9 @@ class PagesController extends Controller
 
     public function jokePage()
     {
-        $jokes = Joke::all();
-        $joke = explode('|', $jokes->random()->text);
+        $joke = Joke::all()->random();
 
-        return view('joke', ['joke' => $joke]);
+        return view('joke', ['joke' => $joke->text]);
     }
 
     public function scarePage()

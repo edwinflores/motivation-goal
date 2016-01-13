@@ -11,7 +11,7 @@ class ScareTableSeeder extends Seeder
             'It was the sound of the first scoop of dirt | hitting the lid of the coffin that woke me.',
             '"I can\'t sleep," she whispered, | crawling into bed with me as I woke up, cold, | clutching the dress she was buried in',
             'The last person on Earth sat alone in a room, | there was a knock on the door.',
-            'I sat there holding the body, knowing no one would believe me.',
+            'I sat there holding the body, | knowing no one would believe me.',
             'I loved the beat of her heart so deeply, | I\'d consider myself even more crazy | if I didn\'t cut it out, | string it on a metal chain, | and wear it close to my own.  ',
             'Let me introduce you to a great business opportunity.',
             'And she said, | "Don\'t worry honey, | close your eyes | and just think about seeing Nana again soon."',
